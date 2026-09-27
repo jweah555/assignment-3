@@ -355,12 +355,25 @@ ul input {
 footer span {
     display: block;
     
+    
+}
+
+@media (min-width: 1400px) {
+   #main-header img{
+    width: 5rem;
+
+    }
+   
 }
 
 @media (min-width: 1150px) {
-    .main-header img {
-        width: 10%;
+   #main-header  img{
+    width: 35%;
+    border-radius: 50%;
+
     }
+
+   
 }
 
 
