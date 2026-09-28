@@ -201,6 +201,15 @@ nav {
     border-radius: 8px;
 }
 
+.rem {
+    visibility: hidden;
+}
+
+.new-val > span:first-child {
+    display: none;
+    visibility: hidden;
+}
+
 
 .card-text {
     display: flex;
@@ -253,6 +262,7 @@ nav {
     background-color: #FF95A5;
     color: #021A54;
     padding-bottom: 3rem;
+    
 }
 
 #article-sec ul {
@@ -334,6 +344,14 @@ nav {
 
 #save-section {
     background-color: #FCE59A;
+    margin-top: -1.5rem;
+    padding-top: 1rem;
+
+    /* text-align: center; */
+}
+
+#save-section h1 {
+    text-align: center;
 }
 
 #added-events{
@@ -343,8 +361,23 @@ nav {
 }
 
 #saved-list {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
     
 }
+
+.new-val{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-val {
+
+}
+
 
 
 footer div{
@@ -405,7 +438,12 @@ footer span {
 
 @media (min-width: 1400px) {
    #main-header img{
-    width: 5rem;
+    width: 2rem;
+
+    }
+
+    #main-header img{
+    width:  10%;
 
     }
    
